@@ -1,11 +1,47 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: linear-gradient(to top, #002355, #5ff9e9);
+    }
+    section{
+        width: 85vw;
+        height: 350px;
+    }
+    table{
+        float: right;
+        width: 300px;
+    }
+    td,th {
+        width: 80px; 
+        text-align: center;
+     }
+     th{
+         color: #028484;
+     }
+     form{
+        float: left;
+        width: 50%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius: 5px;
+     }
+     
+     .paragrafo-resultado, .bad{
+        float: right;
+        width: 300px;
+     }
 
 
 }
 
 @media screen and (min-width: 992px) {
 
-    
+
 }
