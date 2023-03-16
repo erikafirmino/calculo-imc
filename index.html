@@ -8,58 +8,55 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <section class="container">
-        <h1>Tabela IMC</h1>
-       <table>
-        <thead>
-            <th>Imc</th>
-            <th>Classificação</th>
-            <th>Obesidade (Grau)</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Menor 18,5</td>
-                <td>Magreza</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>Entre 18,5 E 24,9</td>
-                <td>Normal</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>Entre 25,0 E 29,9</td>
-                <td>Sobrepeso</td>
-                <td>I</td>
-            </tr>
-            <tr>
-                <td>Entre 30,0 E 39,9</td>
-                <td>Obesidade</td>
-                <td>II</td>
-            </tr>
-            <tr>
-                <td>Maior que 40,0</td>
-                <td>Obesidade grave</td>
-                <td>III</td>
-            </tr>
-        </tbody>
-       </table>
-        <h3>Calcule seu IMC</h3>
-
-        <form action="/" id="form" method="post">
-
-            <label for="peso">Peso</label>
-            <input type="text" id="peso" name="peso">
-
-            <label for="altura">Altura</label>
-            <input type="text" id="altura" name="altura">
-
-            <button type="submit">Enviar</button>
-        </form>
-        <div id="resultado">
-
-        </div>
-    </section>
+    <main>
+        <section class="container">
+            <h1>Tabela IMC</h1>
+           <table>
+            <thead>
+                <th>Imc</th>
+                <th>Classificação</th>
+                <th>Obesidade (Grau)</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Menor 18,5</td>
+                    <td>Magreza</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Entre 18,5 E 24,9</td>
+                    <td>Normal</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Entre 25,0 E 29,9</td>
+                    <td>Sobrepeso</td>
+                    <td>I</td>
+                </tr>
+                <tr>
+                    <td>Entre 30,0 E 39,9</td>
+                    <td>Obesidade</td>
+                    <td>II</td>
+                </tr>
+                <tr>
+                    <td>Maior que 40,0</td>
+                    <td>Obesidade grave</td>
+                    <td>III</td>
+                </tr>
+            </tbody>
+           </table>
+            <h3>Calcule seu IMC</h3>
+            <form action="/" id="form" method="post">
+                <label for="peso">Peso</label>
+                <input type="text" id="peso" name="peso">
+                <label for="altura">Altura</label>
+                <input type="text" id="altura" name="altura">
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="resultado">
+            </div>
+        </section>
+    </main>
 <script src="./assets/js/main.js"></script>
 </body>
 </html>
