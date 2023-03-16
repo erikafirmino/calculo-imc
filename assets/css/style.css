@@ -40,11 +40,11 @@ section{
 h1{
     font-size: 1em;
     margin-bottom: 20px;
-    margin-top: 20px;
+    
 }
 h3{
     font-size: 1em;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 table{
     margin: auto;
@@ -91,9 +91,11 @@ form button:hover{
     background-color:#028484;
 }
 .paragrafo-resultado, .bad{
+    margin-top: 20px;
     background: #75f9da;
     padding: 10px;
     text-align: center;
+    font-size: .8em;
 }
 .bad {
     background-color: rgb(249, 182, 182);
