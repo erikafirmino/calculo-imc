@@ -13,8 +13,11 @@
         width: 85vw;
         height: 350px;
     }
-    table{
+    .qd1{
         float: right;
+    }
+    table{
+        
         width: 300px;
     }
     td,th {
@@ -24,24 +27,72 @@
      th{
          color: #028484;
      }
-     form{
+     .qd2{
         float: left;
-        width: 50%;
+     }
+     h3{
+        font-size: 1em;
+        margin-top: 0px;
+    }
+     form{
+        width: 300px;
         display: block;
         margin: auto;
         margin-bottom: 10px;
         border-radius: 5px;
      }
-     
      .paragrafo-resultado, .bad{
         float: right;
         width: 300px;
      }
-
-
 }
 
 @media screen and (min-width: 992px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body {
+        background-image: linear-gradient(to bottom, #002355, #5ff9e9);
+    }
+    section {
+        width: 700px;
+        height: 400px;
+    }
+    .qd1{
+        float: left;
+        margin-top: 20px;
+        width: 50%;
 
-
+    }
+    table {
+        width: 300px;
+    }
+    td,th {
+        width: 80px; 
+        text-align: center;
+     }
+     th {
+         color: #028484;
+     }
+    .qd2{
+        float: right;
+        margin-top: 20px;
+    }
+    h3{
+        font-size: 1em;
+        margin-top: 0px;
+    }
+    form{
+        width: 300px;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius: 5px;
+     }
+    .paragrafo-resultado, .bad{
+        float: right;
+        width: 350px;
+     }
 }

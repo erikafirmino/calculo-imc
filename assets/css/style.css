@@ -36,6 +36,7 @@ section{
     line-height: 1.5em;
     text-align: justify;
     border-radius: 10px;
+    box-shadow:  3px 7px 16px 6px rgba(0,0,0,0.27);;
 }
 h1{
     font-size: 1em;
